@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>T-Shirt</title>
+    <link rel="icon" type="image/x-icon" href="tshirt1.ico">
+  </head>
+  <style media="screen">
+    body{
+      background-image: linear-gradient(to right, rgb(172, 194, 193) , rgb(180, 172, 194));
+    }
+    h3{
+      color:black;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 25px;
+      text-decoration-line:underline;
+
+    }
+    select.size{
+      width:70px;
+      height:30px;
+    }
+    select.quantity{
+      width:70px;
+      height:30px;
+    }
+    label.color{
+      width:70px;
+      height:30px;
+    }
+    h1{
+      color:rgb(28, 30, 36);
+      text-align:center;
+      border:1.5px solid;
+      box-shadow:2px 6px;
+      background:white;
+      font-family: 'Rubik', sans-serif;
+    }
+
+  </style>
+  <body >
+
+
+    <center>
+      <h1 >Online Shopping Website</h1>
+    </center>
+    <form  method="get">
+
+
+    <img src="tshirt1.png" alt="tshirt pic">
+
+    <h3>Size</h3>
+    <select class="size" name="size" required>
+      <option value="">S</option>
+      <option value="">M</option>
+      <option value="">L</option>
+      <option value="">XL</option>
+
+    </select>
+
+    <h3>Quantity</h3>
+    <select class="quantity" name="Quantity" required>
+      <option value="">5</option>
+      <option value="">4</option>
+      <option value="">3</option>
+      <option value="">2</option>
+      <option value="">1</option>
+    </select>
+
+    <h3>Color</h3>
+
+    <label for="Color" class="color"></label>
+    <input type="color" id="Color" name="Color" value="#ff0000">
+    <br>
+
+
+    <br>
+    <fieldset>
+      <legend style="font-size:30px">Personal Details</legend>
+    <label for="" style="font-size:30px">Name: </label>
+    <input type="text" id=name required >
+
+    <br>
+    <br>
+    <label for="birthday" style="font-size:30px">DOB:</label>
+    <input type="date" id="birthday">
+
+    <br>
+    <br>
+    <label for="" style="font-size:30px">Email:</label>
+    <input type="email" id=Email required>
+
+    <br>
+    <br>
+    <label for="" style="font-size:30px">Phone_Number:</label>
+    <input type="tel" id=Phone_Number min=10 max=10 required>
+
+    <br>
+    <br>
+
+
+    <label for="" style="font-size:30px">Address:</label>
+    <textarea name="Address" id="Address" cols="30" rows="10"></textarea>
+  </fieldset>
+    <br>
+    <label for="" style="font-size:30px">Payment:</label>
+    <br>
+    <input type="radio" id="UPI" name="Payment" value="Payment"
+    checked>
+    <label for="UPI" style="font-size:20px">UPI</label>
+
+
+    <div>
+      <input type="radio" id="Net Banking" name="Payment" value="Payment">
+      <label for="Net Banking" style="font-size:20px" >Net Banking</label>
+    </div>
+
+      <div>
+        <input type="radio" id="Card" name="Payment" value="Payment">
+        <label for="Card" style="font-size:20px">Card</label>
+      </div>
+
+      <div>
+        <input type="radio" id="COD" name="Payment" value="Payment">
+        <label for="COD" style="font-size:20px">COD</label>
+      </div>
+
+
+    <br>
+
+
+    <input type="submit" name="" value="Submit" style="font-size:20px;display: inline-block;background: rgb(35, 102, 204);color:rgb(247, 248, 250);" >
+    </form>
+
+
+  </body>
+
+
+</html>
